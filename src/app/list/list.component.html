@@ -1,0 +1,18 @@
+<div class="border">
+  <div>List component</div>
+  <div>
+    <input
+      type="text"
+      onfocus="this.value=''"
+      value=""
+      [(ngModel)]="textInput"
+    />
+    <button (click)="buttonClick()">Dodaj</button>
+  </div>
+  <ul>
+    <li *ngFor="let element of list">
+      {{ element }}
+      <a (click)="delete(element)">usuń</a>
+    </li>
+  </ul>
+</div>

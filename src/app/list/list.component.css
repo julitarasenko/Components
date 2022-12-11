@@ -1,0 +1,11 @@
+.border {
+  border: 1px solid;
+  padding: 15px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: underline;
+  color: -webkit-link;
+  cursor: pointer;
+}
